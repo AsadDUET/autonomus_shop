@@ -123,7 +123,7 @@ def start_process():
 #        for i in top_k:
 #            print(template.format(labels[i], results[i]))
         #print(labels[top_k[0]])
-        if results[top_k[0]]>=0.4:
+        '''if results[top_k[0]]>=0.4:
             if top_k[0]==0:
                 return 'আলু','আগাম ধ্বসা'
             if top_k[0]==1:
@@ -131,7 +131,7 @@ def start_process():
             if top_k[0]==2:
                 return 'আলু','নাবী ধ্বসা'
         else:
-            return 'unknown'
+            return 'unknown'                      '''
 
 
 
